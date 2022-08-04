@@ -1,0 +1,6 @@
+---
+- hosts: demo
+  become: true
+  roles:
+  - CMAR
+

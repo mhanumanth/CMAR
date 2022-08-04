@@ -1,0 +1,7 @@
+---
+# tasks file for CMAR
+#- include_tasks: addRepo.yml
+- include_tasks: installDocker.yml
+#- include_tasks: installPackages.yml
+#- include_tasks: addRepo.yml
+- include_tasks: jenkins-apa.yml

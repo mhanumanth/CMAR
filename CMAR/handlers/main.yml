@@ -1,0 +1,11 @@
+---
+# handlers file for CMAR
+- name: Enable Docker CE service at startup
+  service:
+    name: docker
+    state: started
+    enabled: yes  
+- name: restart jenkins server
+  service:
+    name: jenkins
+    state: restarted
